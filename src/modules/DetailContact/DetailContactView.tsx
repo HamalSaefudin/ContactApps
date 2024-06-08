@@ -110,7 +110,7 @@ function DetailContactView({
         />
         <Text style={styles.pageTitle}>{pageTitle}</Text>
       </View>
-      <View style={[styles.contentContainer, {paddingBottom: bottom}]}>
+      <View style={[styles.contentContainer]}>
         <View>
           <SimpleInput
             value={formData.firstName}
@@ -135,7 +135,9 @@ function DetailContactView({
             keyboardType="number-pad"
           />
         </View>
-        <TouchableOpacity style={styles.btnCreate} onPress={onPressSubmit}>
+        <TouchableOpacity
+          style={[styles.btnCreate, {marginBottom: bottom}]}
+          onPress={onPressSubmit}>
           <Text
             style={[Fonts.headingMedium.h2, {color: Colors.typography.white}]}>
             {btnTitle}

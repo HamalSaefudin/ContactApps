@@ -13,7 +13,7 @@ type Props = NativeStackScreenProps<RoutesParamList, routesEnum.HOME>;
 function HomeScreen({navigation}: Props) {
   const dispatch = useDispatch();
 
-  const {data, isFetching} = useQuery({
+  const {data, isFetching, refetch} = useQuery({
     queryKey: ['contacts'],
     queryFn: getAllContact,
     placeholderData: [
@@ -36,6 +36,7 @@ function HomeScreen({navigation}: Props) {
 
   return (
     <HomeView
+      onRefresh={refetch}
       onPressListItem={onPressListItem}
       onPressAddButton={onPressAddButton}
       contactData={data as IContact[]}

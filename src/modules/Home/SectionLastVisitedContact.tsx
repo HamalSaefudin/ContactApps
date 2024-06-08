@@ -13,6 +13,7 @@ import {IContact} from '@/types/contact';
 import Layout from '@/theme/Layout';
 import Colors from '@/theme/Colors';
 import {getImg} from '@/utils/utils';
+import Fonts from '@/theme/Fonts';
 
 export default function SectionLastVisitedContact() {
   const {lastVisitContact} = useSelector((state: any) => state.contacts);
@@ -40,7 +41,7 @@ export default function SectionLastVisitedContact() {
 
   return (
     <>
-      <Text>Last Visited Contact</Text>
+      <Text style={Fonts.headingMedium.h3}>Last Visited Contact</Text>
       <FlatList
         testID="list-last-visited-contact"
         data={lastVisitContact}

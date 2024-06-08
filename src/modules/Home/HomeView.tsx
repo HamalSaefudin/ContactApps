@@ -6,6 +6,7 @@ import React, {useCallback} from 'react';
 import {
   FlatList,
   ListRenderItemInfo,
+  RefreshControl,
   SafeAreaView,
   StyleSheet,
   TouchableOpacity,
@@ -20,6 +21,7 @@ type Props = {
   isFetchingContactData: boolean;
   onPressListItem: (id: IContact) => void;
   onPressAddButton: () => void;
+  onRefresh: () => void;
 };
 
 const HomeView = (props: Props) => {
@@ -28,6 +30,7 @@ const HomeView = (props: Props) => {
     isFetchingContactData,
     onPressListItem,
     onPressAddButton,
+    onRefresh,
   } = props;
 
   const renderContactCard = useCallback(
@@ -49,6 +52,12 @@ const HomeView = (props: Props) => {
       <View style={Layout.globalHorizontalPadding}>
         <SectionLastVisitedContact />
         <FlatList
+          refreshControl={
+            <RefreshControl
+              refreshing={isFetchingContactData}
+              onRefresh={onRefresh}
+            />
+          }
           data={contactData}
           keyExtractor={(_, index) => index.toString()}
           renderItem={renderContactCard}
