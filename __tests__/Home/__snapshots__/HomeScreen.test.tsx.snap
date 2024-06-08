@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen to match snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    [
+      {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "paddingHorizontal": 25.142857142857142,
+      }
+    }
+  >
+    <Text>
+      Last Visited Contact
+    </Text>
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "gap": 31.428571428571427,
+        }
+      }
+      data={
+        [
+          {
+            "age": 25,
+            "callHistory": "2024-06-09 14:00:00",
+            "firstName": "Jane",
+            "id": "2",
+            "lastName": "Doe",
+            "photo": "https://randomuser.me/api/portraits/women/1.jpg",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      showsHorizontalScrollIndicator={false}
+      stickyHeaderIndices={[]}
+      style={
+        {
+          "marginVertical": 25.142857142857142,
+        }
+      }
+      testID="list-last-visited-contact"
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "borderRadius": 39.285714285714285,
+                  "height": 78.57142857142857,
+                  "width": 78.57142857142857,
+                }
+              }
+            >
+              <Image
+                source={
+                  {
+                    "uri": "https://randomuser.me/api/portraits/women/1.jpg",
+                  }
+                }
+                style={
+                  [
+                    {
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                    {
+                      "borderRadius": 39.285714285714285,
+                    },
+                  ]
+                }
+              />
+            </View>
+            <Text>
+              Jane Doe
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        {
+          "backgroundColor": "#D9D9D9",
+          "height": 1,
+          "width": "100%",
+        }
+      }
+    />
+    <RCTScrollView
+      data={
+        [
+          {
+            "age": 30,
+            "callHistory": "2024-06-09 12:00:00",
+            "firstName": "John",
+            "id": "1",
+            "lastName": "Doe",
+            "photo": "https://randomuser.me/api/portraits/men/1.jpg",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "borderColor": "#D9D9D9",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "padding": 16,
+              }
+            }
+            testID="contact-card"
+          >
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                  "gap": 23.57142857142857,
+                }
+              }
+            >
+              <View
+                style={
+                  [
+                    false,
+                    {
+                      "overflow": "hidden",
+                    },
+                    false,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      false,
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#D9D9D9",
+                        "borderRadius": 40.85714285714286,
+                        "height": 81.71428571428572,
+                        "width": 81.71428571428572,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        {
+                          "uri": "https://randomuser.me/api/portraits/men/1.jpg",
+                        }
+                      }
+                      style={
+                        {
+                          "borderRadius": 40.85714285714286,
+                          "height": "100%",
+                          "width": "100%",
+                        }
+                      }
+                      testID="img-contact-card"
+                    />
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      [
+                        false,
+                        {
+                          "overflow": "hidden",
+                        },
+                        false,
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          false,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "color": "#26245D",
+                            "flexShrink": 1,
+                            "fontFamily": "Roboto-Bold",
+                            "fontSize": 22,
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          }
+                        }
+                        testID="contact-card-text-name"
+                      >
+                        John Doe
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      [
+                        false,
+                        {
+                          "overflow": "hidden",
+                        },
+                        false,
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          false,
+                          undefined,
+                        ]
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "color": "#5C81F5",
+                            "flexShrink": 1,
+                            "fontFamily": "Roboto-Bold",
+                            "fontSize": 15.714285714285714,
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          }
+                        }
+                        testID="contact-card-text-age"
+                      >
+                        30 Years Old
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    [
+                      false,
+                      {
+                        "overflow": "hidden",
+                      },
+                      false,
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        false,
+                        undefined,
+                      ]
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "#898898",
+                          "flexShrink": 1,
+                          "fontFamily": "Roboto-Regular",
+                          "fontSize": 15.714285714285714,
+                          "fontStyle": "normal",
+                          "fontWeight": "normal",
+                        }
+                      }
+                      testID="contact-card-call-history"
+                    >
+                      June 09, 2024
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                [
+                  false,
+                  {
+                    "overflow": "hidden",
+                  },
+                  false,
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  [
+                    false,
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#000000",
+                        "fontSize": 25.142857142857142,
+                      },
+                      undefined,
+                      {
+                        "fontFamily": "anticon",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#5C81F5",
+        "borderRadius": 30,
+        "bottom": 90,
+        "height": 94.28571428571428,
+        "justifyContent": "center",
+        "opacity": 1,
+        "position": "absolute",
+        "right": 31.500000000000004,
+        "width": 94.28571428571428,
+      }
+    }
+    testID="add-button"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": "#ffffff",
+            "fontSize": 94.28571428571428,
+          },
+          undefined,
+          {
+            "fontFamily": "Feather",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

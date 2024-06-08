@@ -8,13 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ContactAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ContactAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ContactApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ContactApp.a */; };
 		0F62172BAD207BFBAC01234F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 42D8F7124D44A11EA8612EA2 /* PrivacyInfo.xcprivacy */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-ContactApp-ContactAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ContactApp-ContactAppTests.a */; };
+		59DFA4AE2D119CA7F3AA639F /* libPods-ContactApp-ContactAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B3774E8987053716961734 /* libPods-ContactApp-ContactAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8FD0B54C0C5718A0B5070053 /* libPods-ContactApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B80E37160E467FEEFAF957 /* libPods-ContactApp.a */; };
+		FA74EF9D2C131B3C005B5D00 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF8A2C131B3B005B5D00 /* EvilIcons.ttf */; };
+		FA74EF9E2C131B3C005B5D00 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF8B2C131B3B005B5D00 /* Foundation.ttf */; };
+		FA74EF9F2C131B3C005B5D00 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF8C2C131B3B005B5D00 /* FontAwesome.ttf */; };
+		FA74EFA02C131B3C005B5D00 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF8D2C131B3C005B5D00 /* AntDesign.ttf */; };
+		FA74EFA12C131B3C005B5D00 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF8E2C131B3C005B5D00 /* Fontisto.ttf */; };
+		FA74EFA22C131B3C005B5D00 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF8F2C131B3C005B5D00 /* FontAwesome5_Regular.ttf */; };
+		FA74EFA32C131B3C005B5D00 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF902C131B3C005B5D00 /* FontAwesome5_Brands.ttf */; };
+		FA74EFA42C131B3C005B5D00 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF912C131B3C005B5D00 /* FontAwesome6_Brands.ttf */; };
+		FA74EFA52C131B3C005B5D00 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF922C131B3C005B5D00 /* FontAwesome6_Regular.ttf */; };
+		FA74EFA62C131B3C005B5D00 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF932C131B3C005B5D00 /* Octicons.ttf */; };
+		FA74EFA72C131B3C005B5D00 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF942C131B3C005B5D00 /* FontAwesome5_Solid.ttf */; };
+		FA74EFA82C131B3C005B5D00 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF952C131B3C005B5D00 /* Ionicons.ttf */; };
+		FA74EFA92C131B3C005B5D00 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF962C131B3C005B5D00 /* MaterialIcons.ttf */; };
+		FA74EFAA2C131B3C005B5D00 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF972C131B3C005B5D00 /* Entypo.ttf */; };
+		FA74EFAB2C131B3C005B5D00 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF982C131B3C005B5D00 /* FontAwesome6_Solid.ttf */; };
+		FA74EFAC2C131B3C005B5D00 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF992C131B3C005B5D00 /* Feather.ttf */; };
+		FA74EFAD2C131B3C005B5D00 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF9A2C131B3C005B5D00 /* Zocial.ttf */; };
+		FA74EFAE2C131B3C005B5D00 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF9B2C131B3C005B5D00 /* SimpleLineIcons.ttf */; };
+		FA74EFAF2C131B3C005B5D00 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA74EF9C2C131B3C005B5D00 /* MaterialCommunityIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +57,34 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ContactApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ContactApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ContactApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ContactApp-ContactAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactApp-ContactAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-ContactApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp.debug.xcconfig"; path = "Target Support Files/Pods-ContactApp/Pods-ContactApp.debug.xcconfig"; sourceTree = "<group>"; };
-		42D8F7124D44A11EA8612EA2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = ContactApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-ContactApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp.release.xcconfig"; path = "Target Support Files/Pods-ContactApp/Pods-ContactApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-ContactApp-ContactAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp-ContactAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-ContactApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B3774E8987053716961734 /* libPods-ContactApp-ContactAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactApp-ContactAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DFA777E28555447D659F7A /* Pods-ContactApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp.release.xcconfig"; path = "Target Support Files/Pods-ContactApp/Pods-ContactApp.release.xcconfig"; sourceTree = "<group>"; };
+		42D8F7124D44A11EA8612EA2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ContactApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		556D8067384F0467CA114EF3 /* Pods-ContactApp-ContactAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp-ContactAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73A38D096BB4DADA14F46BDF /* Pods-ContactApp-ContactAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp-ContactAppTests.release.xcconfig"; path = "Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ContactApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-ContactApp-ContactAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp-ContactAppTests.release.xcconfig"; path = "Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6B80E37160E467FEEFAF957 /* libPods-ContactApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75AAA9794F2BBEF3F39BD63 /* Pods-ContactApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp.debug.xcconfig"; path = "Target Support Files/Pods-ContactApp/Pods-ContactApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FA74EF8A2C131B3B005B5D00 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		FA74EF8B2C131B3B005B5D00 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		FA74EF8C2C131B3B005B5D00 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		FA74EF8D2C131B3C005B5D00 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		FA74EF8E2C131B3C005B5D00 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		FA74EF8F2C131B3C005B5D00 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		FA74EF902C131B3C005B5D00 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		FA74EF912C131B3C005B5D00 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Brands.ttf"; sourceTree = "<group>"; };
+		FA74EF922C131B3C005B5D00 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Regular.ttf"; sourceTree = "<group>"; };
+		FA74EF932C131B3C005B5D00 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		FA74EF942C131B3C005B5D00 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		FA74EF952C131B3C005B5D00 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		FA74EF962C131B3C005B5D00 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		FA74EF972C131B3C005B5D00 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		FA74EF982C131B3C005B5D00 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Solid.ttf"; sourceTree = "<group>"; };
+		FA74EF992C131B3C005B5D00 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		FA74EF9A2C131B3C005B5D00 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		FA74EF9B2C131B3C005B5D00 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		FA74EF9C2C131B3C005B5D00 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-ContactApp-ContactAppTests.a in Frameworks */,
+				59DFA4AE2D119CA7F3AA639F /* libPods-ContactApp-ContactAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-ContactApp.a in Frameworks */,
+				8FD0B54C0C5718A0B5070053 /* libPods-ContactApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* ContactApp */ = {
 			isa = PBXGroup;
 			children = (
+				FA74EF892C131B2D005B5D00 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -105,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-ContactApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ContactApp-ContactAppTests.a */,
+				B6B80E37160E467FEEFAF957 /* libPods-ContactApp.a */,
+				26B3774E8987053716961734 /* libPods-ContactApp-ContactAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,12 +184,38 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-ContactApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-ContactApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-ContactApp-ContactAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-ContactApp-ContactAppTests.release.xcconfig */,
+				B75AAA9794F2BBEF3F39BD63 /* Pods-ContactApp.debug.xcconfig */,
+				39DFA777E28555447D659F7A /* Pods-ContactApp.release.xcconfig */,
+				556D8067384F0467CA114EF3 /* Pods-ContactApp-ContactAppTests.debug.xcconfig */,
+				73A38D096BB4DADA14F46BDF /* Pods-ContactApp-ContactAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA74EF892C131B2D005B5D00 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA74EF8D2C131B3C005B5D00 /* AntDesign.ttf */,
+				FA74EF972C131B3C005B5D00 /* Entypo.ttf */,
+				FA74EF8A2C131B3B005B5D00 /* EvilIcons.ttf */,
+				FA74EF992C131B3C005B5D00 /* Feather.ttf */,
+				FA74EF8C2C131B3B005B5D00 /* FontAwesome.ttf */,
+				FA74EF902C131B3C005B5D00 /* FontAwesome5_Brands.ttf */,
+				FA74EF8F2C131B3C005B5D00 /* FontAwesome5_Regular.ttf */,
+				FA74EF942C131B3C005B5D00 /* FontAwesome5_Solid.ttf */,
+				FA74EF912C131B3C005B5D00 /* FontAwesome6_Brands.ttf */,
+				FA74EF922C131B3C005B5D00 /* FontAwesome6_Regular.ttf */,
+				FA74EF982C131B3C005B5D00 /* FontAwesome6_Solid.ttf */,
+				FA74EF8E2C131B3C005B5D00 /* Fontisto.ttf */,
+				FA74EF8B2C131B3B005B5D00 /* Foundation.ttf */,
+				FA74EF952C131B3C005B5D00 /* Ionicons.ttf */,
+				FA74EF9C2C131B3C005B5D00 /* MaterialCommunityIcons.ttf */,
+				FA74EF962C131B3C005B5D00 /* MaterialIcons.ttf */,
+				FA74EF932C131B3C005B5D00 /* Octicons.ttf */,
+				FA74EF9B2C131B3C005B5D00 /* SimpleLineIcons.ttf */,
+				FA74EF9A2C131B3C005B5D00 /* Zocial.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,12 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ContactAppTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				380E4C5BCC8A58EACE3A9C41 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				562D2B3A9D9660BF69B27FEB /* [CP] Embed Pods Frameworks */,
+				2951C1DAF6757AF178FD321B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,13 +246,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ContactApp" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				06E8C44359D24B3D40A998BC /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				41AEE1582E50B1785263D711 /* [CP] Embed Pods Frameworks */,
+				55E567533D17CC7BED3BED4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,7 +269,8 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -247,8 +313,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				FA74EF9E2C131B3C005B5D00 /* Foundation.ttf in Resources */,
+				FA74EFA02C131B3C005B5D00 /* AntDesign.ttf in Resources */,
+				FA74EF9D2C131B3C005B5D00 /* EvilIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FA74EFAE2C131B3C005B5D00 /* SimpleLineIcons.ttf in Resources */,
+				FA74EFA82C131B3C005B5D00 /* Ionicons.ttf in Resources */,
 				0F62172BAD207BFBAC01234F /* PrivacyInfo.xcprivacy in Resources */,
+				FA74EFA22C131B3C005B5D00 /* FontAwesome5_Regular.ttf in Resources */,
+				FA74EFA92C131B3C005B5D00 /* MaterialIcons.ttf in Resources */,
+				FA74EFA72C131B3C005B5D00 /* FontAwesome5_Solid.ttf in Resources */,
+				FA74EFA12C131B3C005B5D00 /* Fontisto.ttf in Resources */,
+				FA74EFAF2C131B3C005B5D00 /* MaterialCommunityIcons.ttf in Resources */,
+				FA74EF9F2C131B3C005B5D00 /* FontAwesome.ttf in Resources */,
+				FA74EFAD2C131B3C005B5D00 /* Zocial.ttf in Resources */,
+				FA74EFA42C131B3C005B5D00 /* FontAwesome6_Brands.ttf in Resources */,
+				FA74EFA62C131B3C005B5D00 /* Octicons.ttf in Resources */,
+				FA74EFA32C131B3C005B5D00 /* FontAwesome5_Brands.ttf in Resources */,
+				FA74EFAA2C131B3C005B5D00 /* Entypo.ttf in Resources */,
+				FA74EFAB2C131B3C005B5D00 /* FontAwesome6_Solid.ttf in Resources */,
+				FA74EFA52C131B3C005B5D00 /* FontAwesome6_Regular.ttf in Resources */,
+				FA74EFAC2C131B3C005B5D00 /* Feather.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,46 +356,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ContactApp/Pods-ContactApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ContactApp/Pods-ContactApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactApp/Pods-ContactApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ContactApp-ContactAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		06E8C44359D24B3D40A998BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -332,24 +378,63 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		2951C1DAF6757AF178FD321B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		380E4C5BCC8A58EACE3A9C41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactApp-ContactAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41AEE1582E50B1785263D711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactApp/Pods-ContactApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactApp/Pods-ContactApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactApp/Pods-ContactApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E567533D17CC7BED3BED4F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,21 +451,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactApp/Pods-ContactApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		562D2B3A9D9660BF69B27FEB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactApp-ContactAppTests/Pods-ContactApp-ContactAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -416,7 +501,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ContactApp-ContactAppTests.debug.xcconfig */;
+			baseConfigurationReference = 556D8067384F0467CA114EF3 /* Pods-ContactApp-ContactAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -443,7 +528,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ContactApp-ContactAppTests.release.xcconfig */;
+			baseConfigurationReference = 73A38D096BB4DADA14F46BDF /* Pods-ContactApp-ContactAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -467,12 +552,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ContactApp.debug.xcconfig */;
+			baseConfigurationReference = B75AAA9794F2BBEF3F39BD63 /* Pods-ContactApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = ContactApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,11 +580,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ContactApp.release.xcconfig */;
+			baseConfigurationReference = 39DFA777E28555447D659F7A /* Pods-ContactApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = ContactApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -552,6 +639,7 @@
 				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -635,6 +723,7 @@
 				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;

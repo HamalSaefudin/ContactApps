@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleInput to match snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "height": 15,
+        "width": 200,
+      },
+      {
+        "overflow": "hidden",
+      },
+      [
+        {
+          "width": "100%",
+        },
+        {
+          "height": 62.857142857142854,
+        },
+      ],
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+        },
+        false,
+      ]
+    }
+  >
+    <TextInput
+      keyboardType="default"
+      onChangeText={[Function]}
+      placeholder="First Name"
+      style={
+        {
+          "borderBottomWidth": 1,
+          "borderColor": "#D9D9D9",
+          "paddingVertical": 31.428571428571427,
+        }
+      }
+      value=""
+    />
+    <View
+      style={
+        {
+          "position": "absolute",
+          "right": 31.428571428571427,
+          "top": 31.428571428571427,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        selectable={false}
+        style={
+          [
+            {
+              "color": "#000000",
+              "fontSize": 25.142857142857142,
+            },
+            undefined,
+            {
+              "fontFamily": "Octicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
+        }
+        testID="icon-pencil"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#ebebeb",
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      collapsable={false}
+      style={
+        {
+          "flex": 1,
+          "transform": [
+            {
+              "translateX": -200,
+            },
+          ],
+        }
+      }
+    >
+      <BVLinearGradient
+        colors={
+          [
+            4293651435,
+            4291151301,
+            4293651435,
+          ]
+        }
+        endPoint={
+          {
+            "x": 2,
+            "y": 0.5,
+          }
+        }
+        locations={
+          [
+            0.3,
+            0.5,
+            0.7,
+          ]
+        }
+        startPoint={
+          {
+            "x": -1,
+            "y": 0.5,
+          }
+        }
+        style={
+          {
+            "flex": 1,
+            "width": 200,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
